@@ -161,6 +161,6 @@ const NearbyPlacesMap = ({ apiKey, isScriptLoaded, isScriptLoadSucceed }) => {
     );
 };
 
-
-export default ScriptjsLoader(['https://maps.googleapis.com/maps/api/js?key=AIzaSyDkB-kOjKGS9BDyn87t165-ZF5nn-5iYv8'])(NearbyPlacesMap);
+//place ur api key here
+export default ScriptjsLoader(['https://maps.googleapis.com/maps/api/js?key='])(NearbyPlacesMap);
 
